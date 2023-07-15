@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -27,16 +29,22 @@
 
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../src/assets/css/bootstrap.min.css">
 
-  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="../src/assets/css/font-awesome.css">
 
-  <link rel="stylesheet" href="assets/css/templatemo-hexashop.css">
+  <link rel="stylesheet" href="../src/assets/css/templatemo-hexashop.css">
 
-  <link rel="stylesheet" href="assets/css/owl-carousel.css">
+  <link rel="stylesheet" href="../src/assets/css/owl-carousel.css">
 
-  <link rel="stylesheet" href="assets/css/lightbox.css">
+  <link rel="stylesheet" href="../src/assets/css/lightbox.css">
   <!--  -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>React App</title>
 </head>
 
@@ -55,6 +63,36 @@
     -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+
+  <!-- jQuery -->
+  <script src="../src/assets/js/jquery-2.1.0.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="../src/assets/js/popper.js"></script>
+  <script src="../src/assets/js/bootstrap.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="../src/assets/js/owl-carousel.js"></script>
+  <script src="../src/assets/js/accordions.js"></script>
+  <script src="../src/assets/js/datepicker.js"></script>
+  <script src="../src/assets/js/scrollreveal.min.js"></script>
+  <script src="../src/assets/js/waypoints.min.js"></script>
+  <script src="../src/assets/js/jquery.counterup.min.js"></script>
+  <script src="../src/assets/js/imgfix.min.js"></script>
+  <script src="../src/assets/js/slick.js"></script>
+  <script src="../src/assets/js/lightbox.js"></script>
+  <script src="../src/assets/js/isotope.js"></script>
+
+  <!-- Global Init -->
+  <script src="../src/assets/js/custom.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".wish-icon i").click(function () {
+        $(this).toggleClass("fa-heart fa-heart-o");
+      });
+    });	
+  </script>
 </body>
 
 </html>
