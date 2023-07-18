@@ -17,10 +17,10 @@ const Content = () => {
                             <div className="left-content">
                                 <div className="thumb">
                                     <div className="inner-content">
-                                        <h4>We Are Hexashop</h4>
-                                        <span>Awesome, clean &amp; creative HTML5 Template</span>
+                                        <h4>Selamat Datang <br />Auto Smart</h4>
+                                        <span>====== Orang Bijak Belanja bijak ======</span>
                                         <div className="main-border-button">
-                                            <a href="#">Purchase Now!</a>
+                                            <a href="#">Checkout sekarang!</a>
                                         </div>
                                     </div>
                                     <img src={gambar1} alt="Left Banner" />
@@ -34,18 +34,17 @@ const Content = () => {
                                         <div className="right-first-image">
                                             <div className="thumb">
                                                 <div className="inner-content">
-                                                    <h4>Women</h4>
-                                                    <span>Best Clothes For Women</span>
+                                                    <h4>Wanita</h4>
+                                                    <span>Pakaian Terbaik Untuk Wanita</span>
                                                 </div>
                                                 <div className="hover-content">
                                                     <div className="inner">
-                                                        <h4>Women</h4>
+                                                        <h4>Wanita</h4>
                                                         <p>
-                                                            Lorem ipsum dolor sit amet, conservisii ctetur
-                                                            adipiscing elit incid.
+                                                            Hemat hingga 50% dengan diskon spesial pada koleksi pakaian wanita kami, cocok untuk gaya sehari-hari maupun acara khusus.
                                                         </p>
                                                         <div className="main-border-button">
-                                                            <a href="#">Discover More</a>
+                                                            <a href="#">Jelajahi koleksi</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -57,18 +56,17 @@ const Content = () => {
                                         <div className="right-first-image">
                                             <div className="thumb">
                                                 <div className="inner-content">
-                                                    <h4>Men</h4>
-                                                    <span>Best Clothes For Men</span>
+                                                    <h4>Pria</h4>
+                                                    <span>Tampilkan Gaya yang Mengesankan </span>
                                                 </div>
                                                 <div className="hover-content">
                                                     <div className="inner">
-                                                        <h4>Men</h4>
+                                                        <h4>Pria</h4>
                                                         <p>
-                                                            Lorem ipsum dolor sit amet, conservisii ctetur
-                                                            adipiscing elit incid.
+                                                            Tampil Lebih Percaya Diri dengan Pakaian Pria Terbaik yang Membuat Anda Menonjol dari yang Lain.
                                                         </p>
                                                         <div className="main-border-button">
-                                                            <a href="#">Discover More</a>
+                                                            <a href="#">Jelajahi koleksi</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -80,18 +78,17 @@ const Content = () => {
                                         <div className="right-first-image">
                                             <div className="thumb">
                                                 <div className="inner-content">
-                                                    <h4>Kids</h4>
-                                                    <span>Best Clothes For Kids</span>
+                                                    <h4>Anak</h4>
+                                                    <span>Perlihatkan Pesona Si Buah Hati!</span>
                                                 </div>
                                                 <div className="hover-content">
                                                     <div className="inner">
-                                                        <h4>Kids</h4>
+                                                        <h4>Anak</h4>
                                                         <p>
-                                                            Lorem ipsum dolor sit amet, conservisii ctetur
-                                                            adipiscing elit incid.
+                                                            Ini Dia Pakaian Anak Pilihan Terbaik untuk Sang Buah Hati Anda!
                                                         </p>
                                                         <div className="main-border-button">
-                                                            <a href="#">Discover More</a>
+                                                            <a href="#">Jelajahi koleksi</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -103,18 +100,17 @@ const Content = () => {
                                         <div className="right-first-image">
                                             <div className="thumb">
                                                 <div className="inner-content">
-                                                    <h4>Accessories</h4>
-                                                    <span>Best Trend Accessories</span>
+                                                    <h4>Aksesoris</h4>
+                                                    <span>Dapatkan aksesoris memukau!</span>
                                                 </div>
                                                 <div className="hover-content">
                                                     <div className="inner">
-                                                        <h4>Accessories</h4>
+                                                        <h4>Aksesoris</h4>
                                                         <p>
-                                                            Lorem ipsum dolor sit amet, conservisii ctetur
-                                                            adipiscing elit incid.
+                                                            Penawaran terbatas dengan pembelian Aksesoris Pria/wanita, diskon 40% Hari ini.
                                                         </p>
                                                         <div className="main-border-button">
-                                                            <a href="#">Discover More</a>
+                                                            <a href="#">Jelajahi koleksi</a>
                                                         </div>
                                                     </div>
                                                 </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import explor01 from '../assets/images/explore-image-01.jpg';
+import explor02 from '../assets/images/explore-image-02.jpg';
+
 
 const Conten2 = () => {
     return (
@@ -9,22 +12,17 @@ const Conten2 = () => {
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="left-content">
-                                <h2>Explore Our Products</h2>
-                                <span>You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or
-                                    edit this layout. You can convert this template as any kind of ecommerce CMS theme as you
-                                    wish.</span>
+                                <h2>Tentang Kami</h2>
+                                <span>"Kami adalah pilihan tepat untuk semua kebutuhan Fashion Anda, dengan komitmen kami pada kualitas, layanan pelanggan yang luar biasa, dan pengalaman belanja yang tak tertandingi."</span>
                                 <div class="quote">
                                     <i class="fa fa-quote-left"></i>
-                                    <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+                                    <p>"Fashion adalah cara menyampaikan siapa diri kita tanpa perlu mengucapkan sepatah kata." - Ralph Lauren</p>
                                 </div>
-                                <p>There are 5 pages included in this HexaShop Template and we are providing it to you for
-                                    absolutely free of charge at our TemplateMo website. There are web development costs for us.
+                                <p>Dengan fashion elegan dan inovatif, kami memahami bahwa penampilan mencerminkan kepribadian Anda. Setiap detail dipilih dengan cermat untuk mengekspresikan diri dan merayakan individualitas. Bergabunglah dengan kami dan temukan penampilan yang memancarkan kepercayaan diri yang sejati.
                                 </p>
-                                <p>If this template is beneficial for your website or business, please kindly <a rel="nofollow"
-                                    href="https://paypal.me/templatemo" target="_blank">support us</a> a little via PayPal.
-                                    Please also tell your friends about our great website. Thank you.</p>
+                                {/* <p>Buktikanlah sendiri kekuatan fashion kami dengan koleksi pakaian eksklusif dan aksesori yang memikat. <a rel="" target="_blank">Pesan Sekarang</a> Temukan penampilan yang tak terlupakan dan tetapkan tren Anda sendiri.</p> */}
                                 <div class="main-border-button">
-                                    <a href="products.html">Discover More</a>
+                                    <a href="products.html">Baca Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -33,24 +31,24 @@ const Conten2 = () => {
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="leather">
-                                            <h4>Leather Bags</h4>
-                                            <span>Latest Collection</span>
+                                            <h4>Anggun Elegan</h4>
+                                            <span>Miliki tas mewah Pertamamu</span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="first-image">
-                                            <img src="assets/images/explore-image-01.jpg" alt="" />
+                                            <img src={explor01} alt="" />
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="second-image">
-                                            <img src="assets/images/explore-image-02.jpg" alt="" />
+                                            <img src={explor02} alt="" />
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="types">
-                                            <h4>Different Types</h4>
-                                            <span>Over 304 Products</span>
+                                            <h4>Tampil Beda</h4>
+                                            <span><b>Auto Smart</b> Solusinya</span>
                                         </div>
                                     </div>
                                 </div>

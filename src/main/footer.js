@@ -1,5 +1,6 @@
 import React from "react";
 import '../assets/css/templatemo-hexashop.css';
+import gambar_logo from '../assets/images/logoku.png';
 const Footer = () => {
     return (
         <>
@@ -9,8 +10,8 @@ const Footer = () => {
                     <div class="row">
                         <div class="col-lg-8">
                             <div class="section-heading">
-                                <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
-                                <span>Details to details is what makes Hexashop different from the other themes.</span>
+                                <h2>BAGI YANG PUNYA KARTU MEMBER DISKON 30%</h2>
+                                <span>Daftarkan segera diri anda sekarang dan dapatkan diskonnya.</span>
                             </div>
                             <form id="subscribe" action="" method="get">
                                 <div class="row">
@@ -38,16 +39,16 @@ const Footer = () => {
                             <div class="row">
                                 <div class="col-6">
                                     <ul>
-                                        <li>Store Location:<br /><span>Sunny Isles Beach, FL 33160, United States</span></li>
-                                        <li>Phone:<br /><span>010-020-0340</span></li>
-                                        <li>Office Location:<br /><span>North Miami Beach</span></li>
+                                        <li>Lokasi Toko:<br /><span>Jl. Jendral Sudirman No.57 Kediri</span></li>
+                                        <li>Nomor Hp:<br /><span>081928735765</span></li>
+                                        <li>Website :<br /><span>www.AutoSmart</span></li>
                                     </ul>
                                 </div>
                                 <div class="col-6">
                                     <ul>
-                                        <li>Work Hours:<br /><span>07:30 AM - 9:30 PM Daily</span></li>
-                                        <li>Email:<br /><span>info@company.com</span></li>
-                                        <li>Social Media:<br /><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a
+                                        <li>Jam Operasional:<br /><span>07:30 Pagi - 19:30 Malam</span></li>
+                                        <li>Email:<br /><span>autosmart@gmail.com</span></li>
+                                        <li>Sosial Media:<br /><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a
                                             href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
                                     </ul>
                                 </div>
@@ -64,51 +65,46 @@ const Footer = () => {
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="first-item">
-                            <div class="logo">
-                                <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo" />
+                            <div class="logo ms-5">
+                                <img src={gambar_logo} alt="hexashop ecommerce templatemo" />
                             </div>
-                            <ul>
-                                <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                                <li><a href="#">hexashop@company.com</a></li>
-                                <li><a href="#">010-020-0340</a></li>
+                            <ul className="m-5 text-light">
+                                <li><a href="#">ber Operasi Sejak 2010</a></li>
+                                <li><a href="#">Automart@company.com</a></li>
+                                <li><a href="#">083-020-034-987</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <h4>Shopping &amp; Categories</h4>
+                        <h4>Belanja &amp; Fashion</h4>
                         <ul>
-                            <li><a href="#">Men’s Shopping</a></li>
-                            <li><a href="#">Women’s Shopping</a></li>
-                            <li><a href="#">Kid's Shopping</a></li>
+                            <li><a href="#">Laki - laki</a></li>
+                            <li><a href="#">Perempuan</a></li>
+                            <li><a href="#">Anak - anak</a></li>
+                            <li><a href="#">Aksesoris</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h4>Useful Links</h4>
+                        <h4>Menu Aplikasi</h4>
                         <ul>
-                            <li><a href="#">Homepage</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Bantuan</a></li>
+                            <li><a href="#">Hubungi Kami</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h4>Help &amp; Information</h4>
+                        <h4>Lokasi Toko &amp; Belanja Online</h4>
                         <ul>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">FAQ's</a></li>
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Tracking ID</a></li>
+                            <li><a href="#">www.AutoSmart</a></li>
+                            <li><a href="#">Jl. Himalay, No.57</a></li>
+                            <li><a href="#">0812938849</a></li>
+                            <li><a href="#">AutoSmart</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-12">
                         <div class="under-footer">
-                            <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.
-
-                                <br />Design: <a href="https://templatemo.com" target="_parent"
-                                    title="free css templates">TemplateMo</a>
-
-                                <br />Distributed By: <a href="https://themewagon.com" target="_blank"
-                                    title="free & premium responsive templates">ThemeWagon</a>
+                            <p>Copyright © 2023 AutoSmart Co., Ltd. All Rights Reserved.
                             </p>
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
