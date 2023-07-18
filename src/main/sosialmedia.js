@@ -1,4 +1,10 @@
+import gambar1 from '../assets/images/instagram-01.jpg';
+import gambar2 from '../assets/images/instagram-02.jpg';
+import gambar3 from '../assets/images/instagram-03.jpg';
+import gambar4 from '../assets/images/instagram-04.jpg';
 import gambar5 from '../assets/images/instagram-05.jpg';
+import gambar6 from '../assets/images/instagram-06.jpg';
+
 const Sosialmedia = () => {
     return (
         <>
@@ -8,8 +14,8 @@ const Sosialmedia = () => {
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-heading">
-                                <h2>Social Media</h2>
-                                <span>Details to details is what makes Hexashop different from the other themes.</span>
+                                <h2>Sosial Media</h2>
+                                <span>Kunjungi Sosial media kami dan dapatkan informasi tentang kami untuk jadi yang utama</span>
                             </div>
                         </div>
                     </div>
@@ -24,7 +30,7 @@ const Sosialmedia = () => {
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </div>
-                                <img src="assets/images/instagram-01.jpg" alt="" />
+                                <img src={gambar1} alt="" />
                             </div>
                         </div>
                         <div class="col-2">
@@ -35,7 +41,7 @@ const Sosialmedia = () => {
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </div>
-                                <img src="assets/images/instagram-02.jpg" alt="" />
+                                <img src={gambar2} alt="" />
                             </div>
                         </div>
                         <div class="col-2">
@@ -46,7 +52,7 @@ const Sosialmedia = () => {
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </div>
-                                <img src="assets/images/instagram-03.jpg" alt="" />
+                                <img src={gambar3} alt="" />
                             </div>
                         </div>
                         <div class="col-2">
@@ -57,7 +63,7 @@ const Sosialmedia = () => {
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </div>
-                                <img src="assets/images/instagram-04.jpg" alt="" />
+                                <img src={gambar4} alt="" />
                             </div>
                         </div>
                         <div class="col-2">
@@ -79,7 +85,7 @@ const Sosialmedia = () => {
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </div>
-                                <img src="assets/images/instagram-06.jpg" alt="" />
+                                <img src={gambar6} alt="" />
                             </div>
                         </div>
                     </div>

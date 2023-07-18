@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/css/templatemo-hexashop.css';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logoku.png';
 
 const Header = () => {
     return (
@@ -23,43 +23,31 @@ const Header = () => {
                                             Home
                                         </a>
                                     </li>
-                                    <li className="scroll-to-section">
-                                        <a href="#men">Men's</a>
-                                    </li>
-                                    <li className="scroll-to-section">
-                                        <a href="#women">Women's</a>
-                                    </li>
-                                    <li className="scroll-to-section">
-                                        <a href="#kids">Kid's</a>
-                                    </li>
                                     <li className="submenu">
-                                        <a href="javascript:;">Pages</a>
+                                        <a href="javascript:;">Halaman</a>
                                         <ul>
                                             <li>
-                                                <a href="about.html">About Us</a>
+                                                <a href="">Tentang Kami</a>
                                             </li>
                                             <li>
-                                                <a href="products.html">Products</a>
+                                                <a href="">Tentang Aplikasi</a>
                                             </li>
                                             <li>
-                                                <a href="single-product.html">Single Product</a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">Contact Us</a>
+                                                <a href="">Hubungi Kami</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li className="submenu">
-                                        <a href="javascript:;">Features</a>
+                                        <a href="javascript:;">Pruduk</a>
                                         <ul>
                                             <li>
-                                                <a href="#">Features Page 1</a>
+                                                <a href="#">Laki - laki</a>
                                             </li>
                                             <li>
-                                                <a href="#">Features Page 2</a>
+                                                <a href="#">Wanita</a>
                                             </li>
                                             <li>
-                                                <a href="#">Features Page 3</a>
+                                                <a href="#">Anak</a>
                                             </li>
                                             <li>
                                                 <a
@@ -67,13 +55,13 @@ const Header = () => {
                                                     href="https://templatemo.com/page/4"
                                                     target="_blank"
                                                 >
-                                                    Template Page 4
+                                                    Aksesoris
                                                 </a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li className="scroll-to-section">
-                                        <a href="#explore">Explore</a>
+                                        <a href="#explore">Semua Produk</a>
                                     </li>
                                 </ul>
                                 <a className="menu-trigger">
